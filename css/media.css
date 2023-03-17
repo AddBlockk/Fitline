@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 768px) {
+  .text-field__input--email {
+    max-width: 260px;
+  }
+}
