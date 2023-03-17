@@ -8,6 +8,9 @@
     <title>Fitline</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,6 +41,9 @@
                             <li class="user__content user__content--home"></li>
                         </a>
                     </ul>
+                    <button class="nav-button">
+                        <img src="./img/icons8-menu-30.png">
+                    </button>
                 </div>
                 <div class="main-screen">
                     <div class="article">
@@ -92,8 +98,10 @@
                 <h2 class="h2 h2__trial">Попробуйте бесплатно</h2>
                 <p class="subtitle subtitle-in-trial">Смотрите и выполняйте первую тренировку любого курса
                     бесплатно и выбирайте то, что вам подходит больше всего.</p>
-                <div class="button-in-main button-in-trial">
-                    <button class="button">Попробуйте бесплатно</button>
+                <div class="button-trial">
+                    <div class="button-in-main button-in-trial">
+                        <button class="button">Попробуйте бесплатно</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,50 +142,51 @@
                             </div>
                         </div>
                         <div class="border-service-card-price">
-                            <h2 class="h2">2590 ₽</h2>
+                            <h2 class="h2 h2__cost">2590 ₽</h2>
                             <div class="button-in-main button-in-trial">
                                 <button class="button">Купить курс</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <ul class="online-course online-course__sections">
-                        <li class="online-course-information online-course-information--active">Тренеры</li>
-                        <li class="online-course-information">Оборудование</li>
-                        <li class="online-course-information">Отзывы</li>
-                    </ul>
+            </div>
+            <div class="online-course__sections-block">
+                <ul class="online-course online-course__sections">
+                    <li class="online-course-information online-course-information--active">Тренеры</li>
+                    <li class="online-course-information">Оборудование</li>
+                    <li class="online-course-information">Отзывы</li>
+                </ul>
+            </div>
+            <div class="online-course-card">
+                <div class="online-course-block-text">
+                    <p class="online-course--text">Занятия на платформе проводят профессиональные тренеры,
+                        спортcмены, мастера спорта. Очень важно доверять тренеру, прислушиваться к нему, чтобы
+                        тренировка была эффективной
+                        и безопасной.</p>
                 </div>
-                <div class="online-course-card">
-                    <div class="online-course-block-text">
-                        <p class="online-course--text">Занятия на платформе проводят профессиональные тренеры,
-                            спортcмены, мастера спорта. Очень важно доверять тренеру, прислушиваться к нему, чтобы
-                            тренировка была эффективной
-                            и безопасной.</p>
+                <div class="online-course-border">
+                    <div class="online-course-border__teacher">
+                        <div class="online-course-border--irina"></div>
                     </div>
-                    <div class="online-course-border">
-                        <div class="online-course-border__teacher">
-                            <div class="online-course-border--irina"></div>
-                        </div>
-                        <p class="online-course-name-teacher">Ирина Усольцева</p>
-                        <p class="online-course-achievements">Мастер спорта по гимнастике</p>
+                    <p class="online-course-name-teacher">Ирина Усольцева</p>
+                    <p class="online-course-achievements">Мастер спорта по гимнастике</p>
+                </div>
+                <div class="online-course-border">
+                    <div class="online-course-border__teacher">
+                        <div class="online-course-border--elena"></div>
                     </div>
-                    <div class="online-course-border">
-                        <div class="online-course-border__teacher">
-                            <div class="online-course-border--elena"></div>
-                        </div>
-                        <p class="online-course-name-teacher">Елена Артемьева</p>
-                        <p class="online-course-achievements">Артистка балета</p>
+                    <p class="online-course-name-teacher">Елена Артемьева</p>
+                    <p class="online-course-achievements">Артистка балета</p>
+                </div>
+                <div class="online-course-border">
+                    <div class="online-course-border__teacher">
+                        <div class="online-course-border--alena"></div>
                     </div>
-                    <div class="online-course-border">
-                        <div class="online-course-border__teacher">
-                            <div class="online-course-border--alena"></div>
-                        </div>
-                        <p class="online-course-name-teacher">Алена Свиридова</p>
-                        <p class="online-course-achievements">Чемпионка России по акробатике</p>
-                    </div>
+                    <p class="online-course-name-teacher">Алена Свиридова</p>
+                    <p class="online-course-achievements">Чемпионка России по акробатике</p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -193,8 +202,10 @@
                         ту физическую нагрузку, которая необходима.</p>
                     <p>На платформе есть тренировки для разных целей: снижение веса, набор мышечной массы,
                         восстановление, развитие гибкости, поддержка общего тонуса организма. </p>
-                    <div class="button-in-main button-in-about-us">
-                        <button class="button ">Узнать больше</button>
+                    <div class="button-about-us">
+                        <div class="button-in-main button-in-about-us">
+                            <button class="button ">Узнать больше</button>
+                        </div>
                     </div>
                 </div>
                 <div>

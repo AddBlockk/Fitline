@@ -1,8 +1,179 @@
-@media (max-width: 1000px) {
+@media (min-width: 1260px) {
+}
+
+@media (min-width: 1024px), (max-width: 1259px) {
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 708px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.2rem grey;
+  }
+  .main-screen {
+    flex-direction: column-reverse;
+  }
+  .h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .courses {
+    padding-top: 54px;
+    padding-bottom: 0px;
+  }
+  .h2__course {
+    padding-bottom: 54px;
+  }
+  .course__border:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .button-course {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    justify-content: center;
+  }
+  .button-trial {
+    display: flex;
+    justify-content: center;
+  }
+  .h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .trial-lesson {
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .h2__trial {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .subtitle-in-trial {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 10px 25px 10px;
+  }
+  .button-in-trial {
+    display: flex;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #3586ff;
+    justify-content: center;
+  }
+  .button {
+    max-width: 230px;
+  }
+  .trial-lesson {
+    background-position: 50%;
+  }
+  .service-card {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+  .h2__service-card {
+    padding-bottom: 20px;
+  }
+  .border-service-card {
+    margin-bottom: 30px;
+  }
+  .border-service-card-price {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .service__online-course {
+    display: block;
+  }
+  .service__online-course--img {
+    padding-bottom: 0px;
+  }
+  .h2__cost {
+    padding-bottom: 30px;
+  }
+  .online-course {
+    justify-content: center;
+  }
+  .online-course__sections-block {
+    padding-top: 30px;
+  }
+  .online-course-information {
+    margin-bottom: 15px;
+  }
+  .online-course-border {
+    margin-top: 20px;
+  }
+  .online-course-card {
+    justify-content: center;
+  }
+  .about-us__fitline {
+    flex-direction: column-reverse;
+  }
+  .about-us {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+  .h2__about-us {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .button-in-about-us {
+    display: flex;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #3586ff;
+    justify-content: center;
+    margin-top: 54px;
+  }
+  .button-about-us {
+    display: flex;
+    justify-content: center;
+  }
+  .how-it-works {
+    padding-bottom: 54px;
+    padding-top: 54px;
+  }
+  .h2-how-it-works {
+    padding-bottom: 30px;
+  }
+  .how-it-works--info {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+  .sending-form {
+    padding-top: 54px;
+  }
+  .sending__text {
+    display: block;
+    text-align: start;
+  }
+  .sending-form--text {
+    text-align: start;
+  }
+  .text-field-main {
+    padding-top: 44px;
+  }
   .text-field__input--email {
     max-width: 260px;
+  }
+  .label--radio {
+    display: block;
+  }
+  .footer-list {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .footer {
+    padding-bottom: 54px;
+    padding-top: 54px;
   }
 }
