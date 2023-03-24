@@ -304,6 +304,9 @@ body {
   color: #f1f4f8;
   box-shadow: 0px 1px 10px 1px #2866c2;
 }
+.online-course-information--active a {
+  color: #f1f4f8;
+}
 
 .service__online-course--img {
   max-width: 100%;
